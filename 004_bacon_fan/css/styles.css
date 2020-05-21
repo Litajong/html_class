@@ -1,8 +1,42 @@
-h1{ 
-    color: #ff0000; 
-    font-size: 100px;
+/**************************TAG SELECTORS****************************/
+
+h1 { 
+    color: blue; 
+    font-size: 50px;
 }
 
-body{
-    background-color: burlywood;
+img:hover {
+    background-color: gold;
+}
+
+p {
+    color: #562349;
+    font-size: 20px;
+    font-style: italic;
+}
+
+body {
+    background-color: #fee2b3;
+}
+
+/**************************CLASS SELECTORS****************************/
+
+.bacon {
+    background-color: green;
+}
+
+.broccoli {
+    background-color: red;
+}
+
+.circular {
+    border-radius: 100%;
+}
+
+/**************************ID SELECTORS****************************/ 
+
+
+#heading {
+    color: #ad6989; 
+    font-size: 100px;
 }
