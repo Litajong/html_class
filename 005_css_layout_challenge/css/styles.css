@@ -13,7 +13,7 @@ h1 {
   margin: 0px;
   color: #66bfbf;
   font-family: "Sacramento", cursive;
-  font-size: 60px;
+  font-size: 80px;
   font-style: italic;
 }
 
@@ -50,15 +50,17 @@ p {
   color: #40514e;
   text-align: center;
   line-height: 2;
+  font-family: "Montserrat", sans-serif;
 }
 
 hr {
-  margin-top: 60px;
-  margin-bottom: 50px;
+  /* margin-top: 60px;
+  margin-bottom: 50px; */
+  margin: 100px auto;
   border-style: none;
   border-top-style: dotted;
-  border-color: grey;
-  border-width: 5px;
+  border-color: #eaf6f6;
+  border-width: 6px;
   width: 7%;
 }
 
@@ -68,6 +70,8 @@ hr {
 
 h3 {
   color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
 }
 
 .python {
@@ -98,7 +102,7 @@ h3 {
 
 .contact-me {
   margin: 0 auto;
-  width: 400px;
+  width: 500px;
 }
 
 .topic {
@@ -132,12 +136,18 @@ ul {
   margin-top: 50px;
 }
 
-.name-tag {
+.copyright {
   margin-bottom: 0;
   color: #eaf6f6;
+  font-size: 0.75rem;
 }
 
 a {
   text-decoration: none;
   color: #11999e;
+  font-family: "Montserrat", sans-serif;
+}
+
+a:hover {
+  color: #eaf6f6;
 }
