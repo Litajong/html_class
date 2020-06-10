@@ -8,7 +8,7 @@ body {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 h1 {
@@ -63,14 +63,20 @@ p {
 
 /* Title Image */
 .title-image {
-    width: 60%;
+    width: 55%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
 }
 
 /* Features Section */
 
 #features {
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    /* z-index: 1; */
+
 }
 
 .feature-box {
@@ -96,7 +102,7 @@ p {
 }
 
 .testimonial-image {
-    width: 15%;
+    width: 13%;
     border-radius: 100%;
     margin: 20px;
 }
@@ -124,4 +130,36 @@ p {
 
 .pricing-column {
     padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* CTA Section */
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    font-weight:900;
+    text-align: center;
+    padding: 3% 4%;
+}
+
+/* Footer Section */
+#footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 5%;
+}
+
+.footer-icon {
+    margin: 15px 10px 20px;
 }
