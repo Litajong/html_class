@@ -32,6 +32,16 @@ p {
     padding: 7% 15%;
 }
 
+/* Sections */
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
 /* Navigation Bar */
 .navbar {
     padding: 0 0 4.5rem;
@@ -60,8 +70,6 @@ p {
 /* Title Section */
 
 #title {
-    background-color: #ff4c68;
-    color: #fff;
     text-align: left;
 }
 
@@ -80,7 +88,6 @@ p {
 /* Features Section */
 
 #features {
-    background-color: #fff;
     position: relative;
     /* z-index: 1; */
 
@@ -103,7 +110,6 @@ p {
 
 #testimonials {
     background-color: #ef8172;
-    color: #fff;
 }
 
 .testimonial-text {
@@ -142,10 +148,6 @@ p {
 }
 
 /* CTA Section */
-#cta {
-    background-color: #ff4c68;
-    color: #fff;
-}
 
 .cta-heading {
     font-family: "Montserrat";
